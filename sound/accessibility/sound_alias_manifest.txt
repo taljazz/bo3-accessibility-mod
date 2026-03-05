@@ -1,0 +1,223 @@
+# BO3 Zombies Accessibility Mod - Sound Alias Manifest
+# Format: alias_name | category | spoken_text | file_path
+#================================================================================
+
+# --- ROUNDS ---
+aud_acc_round_1 | rounds | Round 1 | sound/accessibility/rounds/aud_acc_round_1.wav
+aud_acc_round_2 | rounds | Round 2 | sound/accessibility/rounds/aud_acc_round_2.wav
+aud_acc_round_3 | rounds | Round 3 | sound/accessibility/rounds/aud_acc_round_3.wav
+aud_acc_round_4 | rounds | Round 4 | sound/accessibility/rounds/aud_acc_round_4.wav
+aud_acc_round_5 | rounds | Round 5 | sound/accessibility/rounds/aud_acc_round_5.wav
+aud_acc_round_6 | rounds | Round 6 | sound/accessibility/rounds/aud_acc_round_6.wav
+aud_acc_round_7 | rounds | Round 7 | sound/accessibility/rounds/aud_acc_round_7.wav
+aud_acc_round_8 | rounds | Round 8 | sound/accessibility/rounds/aud_acc_round_8.wav
+aud_acc_round_9 | rounds | Round 9 | sound/accessibility/rounds/aud_acc_round_9.wav
+aud_acc_round_10 | rounds | Round 10 | sound/accessibility/rounds/aud_acc_round_10.wav
+aud_acc_round_11 | rounds | Round 11 | sound/accessibility/rounds/aud_acc_round_11.wav
+aud_acc_round_12 | rounds | Round 12 | sound/accessibility/rounds/aud_acc_round_12.wav
+aud_acc_round_13 | rounds | Round 13 | sound/accessibility/rounds/aud_acc_round_13.wav
+aud_acc_round_14 | rounds | Round 14 | sound/accessibility/rounds/aud_acc_round_14.wav
+aud_acc_round_15 | rounds | Round 15 | sound/accessibility/rounds/aud_acc_round_15.wav
+aud_acc_round_16 | rounds | Round 16 | sound/accessibility/rounds/aud_acc_round_16.wav
+aud_acc_round_17 | rounds | Round 17 | sound/accessibility/rounds/aud_acc_round_17.wav
+aud_acc_round_18 | rounds | Round 18 | sound/accessibility/rounds/aud_acc_round_18.wav
+aud_acc_round_19 | rounds | Round 19 | sound/accessibility/rounds/aud_acc_round_19.wav
+aud_acc_round_20 | rounds | Round 20 | sound/accessibility/rounds/aud_acc_round_20.wav
+aud_acc_round_21 | rounds | Round 21 | sound/accessibility/rounds/aud_acc_round_21.wav
+aud_acc_round_22 | rounds | Round 22 | sound/accessibility/rounds/aud_acc_round_22.wav
+aud_acc_round_23 | rounds | Round 23 | sound/accessibility/rounds/aud_acc_round_23.wav
+aud_acc_round_24 | rounds | Round 24 | sound/accessibility/rounds/aud_acc_round_24.wav
+aud_acc_round_25 | rounds | Round 25 | sound/accessibility/rounds/aud_acc_round_25.wav
+aud_acc_round_26 | rounds | Round 26 | sound/accessibility/rounds/aud_acc_round_26.wav
+aud_acc_round_27 | rounds | Round 27 | sound/accessibility/rounds/aud_acc_round_27.wav
+aud_acc_round_28 | rounds | Round 28 | sound/accessibility/rounds/aud_acc_round_28.wav
+aud_acc_round_29 | rounds | Round 29 | sound/accessibility/rounds/aud_acc_round_29.wav
+aud_acc_round_30 | rounds | Round 30 | sound/accessibility/rounds/aud_acc_round_30.wav
+aud_acc_round_31 | rounds | Round 31 | sound/accessibility/rounds/aud_acc_round_31.wav
+aud_acc_round_32 | rounds | Round 32 | sound/accessibility/rounds/aud_acc_round_32.wav
+aud_acc_round_33 | rounds | Round 33 | sound/accessibility/rounds/aud_acc_round_33.wav
+aud_acc_round_34 | rounds | Round 34 | sound/accessibility/rounds/aud_acc_round_34.wav
+aud_acc_round_35 | rounds | Round 35 | sound/accessibility/rounds/aud_acc_round_35.wav
+aud_acc_round_36 | rounds | Round 36 | sound/accessibility/rounds/aud_acc_round_36.wav
+aud_acc_round_37 | rounds | Round 37 | sound/accessibility/rounds/aud_acc_round_37.wav
+aud_acc_round_38 | rounds | Round 38 | sound/accessibility/rounds/aud_acc_round_38.wav
+aud_acc_round_39 | rounds | Round 39 | sound/accessibility/rounds/aud_acc_round_39.wav
+aud_acc_round_40 | rounds | Round 40 | sound/accessibility/rounds/aud_acc_round_40.wav
+aud_acc_round_41 | rounds | Round 41 | sound/accessibility/rounds/aud_acc_round_41.wav
+aud_acc_round_42 | rounds | Round 42 | sound/accessibility/rounds/aud_acc_round_42.wav
+aud_acc_round_43 | rounds | Round 43 | sound/accessibility/rounds/aud_acc_round_43.wav
+aud_acc_round_44 | rounds | Round 44 | sound/accessibility/rounds/aud_acc_round_44.wav
+aud_acc_round_45 | rounds | Round 45 | sound/accessibility/rounds/aud_acc_round_45.wav
+aud_acc_round_46 | rounds | Round 46 | sound/accessibility/rounds/aud_acc_round_46.wav
+aud_acc_round_47 | rounds | Round 47 | sound/accessibility/rounds/aud_acc_round_47.wav
+aud_acc_round_48 | rounds | Round 48 | sound/accessibility/rounds/aud_acc_round_48.wav
+aud_acc_round_49 | rounds | Round 49 | sound/accessibility/rounds/aud_acc_round_49.wav
+aud_acc_round_50 | rounds | Round 50 | sound/accessibility/rounds/aud_acc_round_50.wav
+aud_acc_round_51 | rounds | Round 51 | sound/accessibility/rounds/aud_acc_round_51.wav
+aud_acc_round_52 | rounds | Round 52 | sound/accessibility/rounds/aud_acc_round_52.wav
+aud_acc_round_53 | rounds | Round 53 | sound/accessibility/rounds/aud_acc_round_53.wav
+aud_acc_round_54 | rounds | Round 54 | sound/accessibility/rounds/aud_acc_round_54.wav
+aud_acc_round_55 | rounds | Round 55 | sound/accessibility/rounds/aud_acc_round_55.wav
+aud_acc_round_56 | rounds | Round 56 | sound/accessibility/rounds/aud_acc_round_56.wav
+aud_acc_round_57 | rounds | Round 57 | sound/accessibility/rounds/aud_acc_round_57.wav
+aud_acc_round_58 | rounds | Round 58 | sound/accessibility/rounds/aud_acc_round_58.wav
+aud_acc_round_59 | rounds | Round 59 | sound/accessibility/rounds/aud_acc_round_59.wav
+aud_acc_round_60 | rounds | Round 60 | sound/accessibility/rounds/aud_acc_round_60.wav
+aud_acc_round_61 | rounds | Round 61 | sound/accessibility/rounds/aud_acc_round_61.wav
+aud_acc_round_62 | rounds | Round 62 | sound/accessibility/rounds/aud_acc_round_62.wav
+aud_acc_round_63 | rounds | Round 63 | sound/accessibility/rounds/aud_acc_round_63.wav
+aud_acc_round_64 | rounds | Round 64 | sound/accessibility/rounds/aud_acc_round_64.wav
+aud_acc_round_65 | rounds | Round 65 | sound/accessibility/rounds/aud_acc_round_65.wav
+aud_acc_round_66 | rounds | Round 66 | sound/accessibility/rounds/aud_acc_round_66.wav
+aud_acc_round_67 | rounds | Round 67 | sound/accessibility/rounds/aud_acc_round_67.wav
+aud_acc_round_68 | rounds | Round 68 | sound/accessibility/rounds/aud_acc_round_68.wav
+aud_acc_round_69 | rounds | Round 69 | sound/accessibility/rounds/aud_acc_round_69.wav
+aud_acc_round_70 | rounds | Round 70 | sound/accessibility/rounds/aud_acc_round_70.wav
+aud_acc_round_71 | rounds | Round 71 | sound/accessibility/rounds/aud_acc_round_71.wav
+aud_acc_round_72 | rounds | Round 72 | sound/accessibility/rounds/aud_acc_round_72.wav
+aud_acc_round_73 | rounds | Round 73 | sound/accessibility/rounds/aud_acc_round_73.wav
+aud_acc_round_74 | rounds | Round 74 | sound/accessibility/rounds/aud_acc_round_74.wav
+aud_acc_round_75 | rounds | Round 75 | sound/accessibility/rounds/aud_acc_round_75.wav
+aud_acc_round_76 | rounds | Round 76 | sound/accessibility/rounds/aud_acc_round_76.wav
+aud_acc_round_77 | rounds | Round 77 | sound/accessibility/rounds/aud_acc_round_77.wav
+aud_acc_round_78 | rounds | Round 78 | sound/accessibility/rounds/aud_acc_round_78.wav
+aud_acc_round_79 | rounds | Round 79 | sound/accessibility/rounds/aud_acc_round_79.wav
+aud_acc_round_80 | rounds | Round 80 | sound/accessibility/rounds/aud_acc_round_80.wav
+aud_acc_round_81 | rounds | Round 81 | sound/accessibility/rounds/aud_acc_round_81.wav
+aud_acc_round_82 | rounds | Round 82 | sound/accessibility/rounds/aud_acc_round_82.wav
+aud_acc_round_83 | rounds | Round 83 | sound/accessibility/rounds/aud_acc_round_83.wav
+aud_acc_round_84 | rounds | Round 84 | sound/accessibility/rounds/aud_acc_round_84.wav
+aud_acc_round_85 | rounds | Round 85 | sound/accessibility/rounds/aud_acc_round_85.wav
+aud_acc_round_86 | rounds | Round 86 | sound/accessibility/rounds/aud_acc_round_86.wav
+aud_acc_round_87 | rounds | Round 87 | sound/accessibility/rounds/aud_acc_round_87.wav
+aud_acc_round_88 | rounds | Round 88 | sound/accessibility/rounds/aud_acc_round_88.wav
+aud_acc_round_89 | rounds | Round 89 | sound/accessibility/rounds/aud_acc_round_89.wav
+aud_acc_round_90 | rounds | Round 90 | sound/accessibility/rounds/aud_acc_round_90.wav
+aud_acc_round_91 | rounds | Round 91 | sound/accessibility/rounds/aud_acc_round_91.wav
+aud_acc_round_92 | rounds | Round 92 | sound/accessibility/rounds/aud_acc_round_92.wav
+aud_acc_round_93 | rounds | Round 93 | sound/accessibility/rounds/aud_acc_round_93.wav
+aud_acc_round_94 | rounds | Round 94 | sound/accessibility/rounds/aud_acc_round_94.wav
+aud_acc_round_95 | rounds | Round 95 | sound/accessibility/rounds/aud_acc_round_95.wav
+aud_acc_round_96 | rounds | Round 96 | sound/accessibility/rounds/aud_acc_round_96.wav
+aud_acc_round_97 | rounds | Round 97 | sound/accessibility/rounds/aud_acc_round_97.wav
+aud_acc_round_98 | rounds | Round 98 | sound/accessibility/rounds/aud_acc_round_98.wav
+aud_acc_round_99 | rounds | Round 99 | sound/accessibility/rounds/aud_acc_round_99.wav
+aud_acc_round_100 | rounds | Round 100 | sound/accessibility/rounds/aud_acc_round_100.wav
+
+# --- POINTS ---
+aud_acc_points_100 | points | 100 points | sound/accessibility/points/aud_acc_points_100.wav
+aud_acc_points_200 | points | 200 points | sound/accessibility/points/aud_acc_points_200.wav
+aud_acc_points_300 | points | 300 points | sound/accessibility/points/aud_acc_points_300.wav
+aud_acc_points_400 | points | 400 points | sound/accessibility/points/aud_acc_points_400.wav
+aud_acc_points_500 | points | 500 points | sound/accessibility/points/aud_acc_points_500.wav
+aud_acc_points_600 | points | 600 points | sound/accessibility/points/aud_acc_points_600.wav
+aud_acc_points_700 | points | 700 points | sound/accessibility/points/aud_acc_points_700.wav
+aud_acc_points_800 | points | 800 points | sound/accessibility/points/aud_acc_points_800.wav
+aud_acc_points_900 | points | 900 points | sound/accessibility/points/aud_acc_points_900.wav
+aud_acc_points_1000 | points | 1000 points | sound/accessibility/points/aud_acc_points_1000.wav
+aud_acc_points_2000 | points | 2000 points | sound/accessibility/points/aud_acc_points_2000.wav
+aud_acc_points_3000 | points | 3000 points | sound/accessibility/points/aud_acc_points_3000.wav
+aud_acc_points_4000 | points | 4000 points | sound/accessibility/points/aud_acc_points_4000.wav
+aud_acc_points_5000 | points | 5000 points | sound/accessibility/points/aud_acc_points_5000.wav
+aud_acc_points_6000 | points | 6000 points | sound/accessibility/points/aud_acc_points_6000.wav
+aud_acc_points_7000 | points | 7000 points | sound/accessibility/points/aud_acc_points_7000.wav
+aud_acc_points_8000 | points | 8000 points | sound/accessibility/points/aud_acc_points_8000.wav
+aud_acc_points_9000 | points | 9000 points | sound/accessibility/points/aud_acc_points_9000.wav
+aud_acc_points_10000 | points | 10,000 points | sound/accessibility/points/aud_acc_points_10000.wav
+aud_acc_points_15000 | points | 15,000 points | sound/accessibility/points/aud_acc_points_15000.wav
+aud_acc_points_20000 | points | 20,000 points | sound/accessibility/points/aud_acc_points_20000.wav
+aud_acc_points_25000 | points | 25,000 points | sound/accessibility/points/aud_acc_points_25000.wav
+aud_acc_points_30000 | points | 30,000 points | sound/accessibility/points/aud_acc_points_30000.wav
+aud_acc_points_40000 | points | 40,000 points | sound/accessibility/points/aud_acc_points_40000.wav
+aud_acc_points_50000 | points | 50,000 points | sound/accessibility/points/aud_acc_points_50000.wav
+aud_acc_points_60000 | points | 60,000 points | sound/accessibility/points/aud_acc_points_60000.wav
+aud_acc_points_70000 | points | 70,000 points | sound/accessibility/points/aud_acc_points_70000.wav
+aud_acc_points_80000 | points | 80,000 points | sound/accessibility/points/aud_acc_points_80000.wav
+aud_acc_points_90000 | points | 90,000 points | sound/accessibility/points/aud_acc_points_90000.wav
+aud_acc_points_100000 | points | 100,000 points | sound/accessibility/points/aud_acc_points_100000.wav
+
+# --- HEALTH ---
+aud_acc_health_critical | health | Health critical | sound/accessibility/health/aud_acc_health_critical.wav
+aud_acc_health_warning | health | Health low | sound/accessibility/health/aud_acc_health_warning.wav
+aud_acc_health_full | health | Health recovered | sound/accessibility/health/aud_acc_health_full.wav
+aud_acc_health_recovered | health | Health regenerated | sound/accessibility/health/aud_acc_health_recovered.wav
+aud_acc_damage_taken | health | Hit | sound/accessibility/health/aud_acc_damage_taken.wav
+
+# --- AMMO ---
+aud_acc_ammo_empty | ammo | Out of ammo | sound/accessibility/ammo/aud_acc_ammo_empty.wav
+aud_acc_ammo_reload | ammo | Reload | sound/accessibility/ammo/aud_acc_ammo_reload.wav
+aud_acc_ammo_critical | ammo | Last clip, ammo critical | sound/accessibility/ammo/aud_acc_ammo_critical.wav
+aud_acc_ammo_low | ammo | Ammo low | sound/accessibility/ammo/aud_acc_ammo_low.wav
+
+# --- TARGETING ---
+aud_acc_target_acquired | targeting | Target acquired | sound/accessibility/targeting/aud_acc_target_acquired.wav
+aud_acc_target_lost | targeting | Target lost | sound/accessibility/targeting/aud_acc_target_lost.wav
+
+# --- PROXIMITY ---
+aud_acc_dir_front | proximity | Front | sound/accessibility/proximity/aud_acc_dir_front.wav
+aud_acc_dir_behind | proximity | Behind | sound/accessibility/proximity/aud_acc_dir_behind.wav
+aud_acc_dir_left | proximity | Left | sound/accessibility/proximity/aud_acc_dir_left.wav
+aud_acc_dir_right | proximity | Right | sound/accessibility/proximity/aud_acc_dir_right.wav
+aud_acc_swarm_warning | proximity | Surrounded | sound/accessibility/proximity/aud_acc_swarm_warning.wav
+aud_acc_all_clear | proximity | Clear | sound/accessibility/proximity/aud_acc_all_clear.wav
+
+# --- THREAT ---
+aud_acc_threat_critical | threat | Danger close | sound/accessibility/threat/aud_acc_threat_critical.wav
+aud_acc_threat_high | threat | Danger | sound/accessibility/threat/aud_acc_threat_high.wav
+aud_acc_threat_medium | threat | Warning | sound/accessibility/threat/aud_acc_threat_medium.wav
+aud_acc_threat_low | threat | Zombies nearby | sound/accessibility/threat/aud_acc_threat_low.wav
+
+# --- BEACONS ---
+aud_acc_beacon_perk_close | beacons | Perk machine, here | sound/accessibility/beacons/aud_acc_beacon_perk_close.wav
+aud_acc_beacon_perk_near | beacons | Perk machine, nearby | sound/accessibility/beacons/aud_acc_beacon_perk_near.wav
+aud_acc_beacon_perk_far | beacons | Perk machine, ahead | sound/accessibility/beacons/aud_acc_beacon_perk_far.wav
+aud_acc_beacon_wallbuy_close | beacons | Wall weapon, here | sound/accessibility/beacons/aud_acc_beacon_wallbuy_close.wav
+aud_acc_beacon_wallbuy_near | beacons | Wall weapon, nearby | sound/accessibility/beacons/aud_acc_beacon_wallbuy_near.wav
+aud_acc_beacon_box_close | beacons | Mystery box, here | sound/accessibility/beacons/aud_acc_beacon_box_close.wav
+aud_acc_beacon_box_near | beacons | Mystery box, nearby | sound/accessibility/beacons/aud_acc_beacon_box_near.wav
+aud_acc_beacon_box_far | beacons | Mystery box, ahead | sound/accessibility/beacons/aud_acc_beacon_box_far.wav
+aud_acc_beacon_door_close | beacons | Door, here | sound/accessibility/beacons/aud_acc_beacon_door_close.wav
+aud_acc_beacon_door_far | beacons | Door, nearby | sound/accessibility/beacons/aud_acc_beacon_door_far.wav
+aud_acc_beacon_power_close | beacons | Power switch, here | sound/accessibility/beacons/aud_acc_beacon_power_close.wav
+aud_acc_beacon_power_near | beacons | Power switch, nearby | sound/accessibility/beacons/aud_acc_beacon_power_near.wav
+aud_acc_beacon_power_far | beacons | Power switch, ahead | sound/accessibility/beacons/aud_acc_beacon_power_far.wav
+aud_acc_beacon_pap_close | beacons | Pack a Punch, here | sound/accessibility/beacons/aud_acc_beacon_pap_close.wav
+aud_acc_beacon_pap_near | beacons | Pack a Punch, nearby | sound/accessibility/beacons/aud_acc_beacon_pap_near.wav
+
+# --- GENERAL ---
+aud_acc_spawned | general | Game started | sound/accessibility/general/aud_acc_spawned.wav
+aud_acc_round_start | general | New round | sound/accessibility/general/aud_acc_round_start.wav
+aud_acc_points_gained | general | Points earned | sound/accessibility/general/aud_acc_points_gained.wav
+aud_acc_points_milestone | general | Points milestone reached | sound/accessibility/general/aud_acc_points_milestone.wav
+aud_acc_points_status | general | Points update | sound/accessibility/general/aud_acc_points_status.wav
+
+# --- PERKS ---
+aud_acc_perk_juggernog | perks | Juggernog acquired | sound/accessibility/perks/aud_acc_perk_juggernog.wav
+aud_acc_perk_speedcola | perks | Speed Cola acquired | sound/accessibility/perks/aud_acc_perk_speedcola.wav
+aud_acc_perk_doubletap | perks | Double Tap acquired | sound/accessibility/perks/aud_acc_perk_doubletap.wav
+aud_acc_perk_quickrevive | perks | Quick Revive acquired | sound/accessibility/perks/aud_acc_perk_quickrevive.wav
+aud_acc_perk_staminup | perks | Stamin-Up acquired | sound/accessibility/perks/aud_acc_perk_staminup.wav
+aud_acc_perk_widowswine | perks | Widows Wine acquired | sound/accessibility/perks/aud_acc_perk_widowswine.wav
+aud_acc_perk_deadshot | perks | Deadshot Daiquiri acquired | sound/accessibility/perks/aud_acc_perk_deadshot.wav
+aud_acc_perk_mulekick | perks | Mule Kick acquired | sound/accessibility/perks/aud_acc_perk_mulekick.wav
+aud_acc_perk_electriccherry | perks | Electric Cherry acquired | sound/accessibility/perks/aud_acc_perk_electriccherry.wav
+
+# --- POWERUPS ---
+aud_acc_powerup_nuke | powerups | Nuke activated | sound/accessibility/powerups/aud_acc_powerup_nuke.wav
+aud_acc_powerup_insta | powerups | Insta-Kill activated | sound/accessibility/powerups/aud_acc_powerup_insta.wav
+aud_acc_powerup_double | powerups | Double Points activated | sound/accessibility/powerups/aud_acc_powerup_double.wav
+aud_acc_powerup_maxammo | powerups | Max Ammo | sound/accessibility/powerups/aud_acc_powerup_maxammo.wav
+aud_acc_powerup_carpenter | powerups | Carpenter activated | sound/accessibility/powerups/aud_acc_powerup_carpenter.wav
+aud_acc_powerup_firesale | powerups | Fire Sale activated | sound/accessibility/powerups/aud_acc_powerup_firesale.wav
+
+# --- WEAPONS ---
+aud_acc_weapon_swap | weapons | Weapon switched | sound/accessibility/weapons/aud_acc_weapon_swap.wav
+aud_acc_weapon_bought | weapons | Weapon purchased | sound/accessibility/weapons/aud_acc_weapon_bought.wav
+aud_acc_weapon_upgraded | weapons | Weapon upgraded | sound/accessibility/weapons/aud_acc_weapon_upgraded.wav
+
+# --- PLAYER_STATE ---
+aud_acc_downed | player_state | You are down! Need revive! | sound/accessibility/player_state/aud_acc_downed.wav
+aud_acc_revived | player_state | Revived | sound/accessibility/player_state/aud_acc_revived.wav
+aud_acc_game_over | player_state | Game over | sound/accessibility/player_state/aud_acc_game_over.wav
+aud_acc_bleedout | player_state | Bleeding out | sound/accessibility/player_state/aud_acc_bleedout.wav
+
