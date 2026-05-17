@@ -27,6 +27,11 @@ xcopy "%SRC%scripts\zm\gametypes\*.gsc" "%MOD%\scripts\zm\gametypes\" /Y /Q
 echo Copying sound files...
 xcopy "%SRC%sound\accessibility" "%MOD%\sound\accessibility" /E /Y /Q
 
+:: Prepare sound-cue assets (12 alias WAVs + zm_mod.csv) into Mod Tools sound_assets
+echo.
+echo Preparing sound assets...
+powershell -ExecutionPolicy Bypass -File "%SRC%tools\prepare_sound_assets.ps1"
+
 :: Run rebuild to link the mod
 echo.
 echo Running rebuild...

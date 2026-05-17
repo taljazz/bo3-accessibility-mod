@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>Bo3Access</RootNamespace>
+    <AssemblyName>Bo3Access</AssemblyName>
+    <Platforms>AnyCPU</Platforms>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Tolk.dll" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="TolkDotNet.dll" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="nvdaControllerClient64.dll" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="SAAPI64.dll" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

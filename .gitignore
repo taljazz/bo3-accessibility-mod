@@ -2,3 +2,5 @@
 __pycache__/
 tools/output.txt
 tools/build_log.txt
+launcher/**/bin/
+launcher/**/obj/
