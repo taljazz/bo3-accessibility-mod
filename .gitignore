@@ -1,3 +1,4 @@
 .claude/
 __pycache__/
 tools/output.txt
+tools/build_log.txt

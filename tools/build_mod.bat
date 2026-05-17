@@ -1,7 +1,7 @@
 @echo off
-set "TA_GAME_PATH=C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\"
-set "TA_TOOLS_PATH=C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\"
-set "TA_LOCAL_ASSET_CACHE=C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\"
+set "TA_GAME_PATH=C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III 455130\"
+set "TA_TOOLS_PATH=C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III 455130\"
+set "TA_LOCAL_ASSET_CACHE=C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III 455130\share\assetconvert\"
 
 echo === Updating GDT Database ===
 "%TA_TOOLS_PATH%gdtdb\gdtdb.exe" /update

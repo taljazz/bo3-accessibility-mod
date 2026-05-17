@@ -1,7 +1,7 @@
-Set-Location "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III"
-$env:TA_GAME_PATH = "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\"
-$env:TA_TOOLS_PATH = "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\"
-$env:TA_LOCAL_ASSET_CACHE = "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\"
+Set-Location "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III 455130"
+$env:TA_GAME_PATH = "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III 455130\"
+$env:TA_TOOLS_PATH = "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III 455130\"
+$env:TA_LOCAL_ASSET_CACHE = "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III 455130\share\assetconvert\"
 
 Write-Output "=== GDTDB Update ==="
 & ".\gdtdb\gdtdb.exe" /update 2>&1
