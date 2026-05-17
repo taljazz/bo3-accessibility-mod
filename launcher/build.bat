@@ -1,6 +1,6 @@
 @echo off
 :: Builds the BO3 Accessibility launcher+bridge (C#, .NET).
-:: Replaces launch_zombies.bat + launch_bridge.bat + the Python bridge.
+:: This compiled app is the launcher AND the TTS/menu bridge in one.
 setlocal
 echo Building Bo3Access (Release)...
 dotnet build "%~dp0Bo3Access\Bo3Access.csproj" -c Release -nologo
