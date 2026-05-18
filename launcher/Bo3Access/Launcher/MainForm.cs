@@ -9,8 +9,8 @@ namespace Bo3Access.Launcher;
 /// <summary>
 /// Accessible launcher window. Follows the proven CSharp Academy pattern:
 /// <see cref="Form.KeyPreview"/>, an accessible status <see cref="Label"/>,
-/// and Tolk speech on show. Declared <c>partial</c> — input handling and
-/// navigation live in MainForm.Input.cs.
+/// and Tolk speech on show. Declared <c>partial</c> — input/navigation live
+/// in MainForm.Input.cs and the GobbleGum screen in MainForm.GobbleGum.cs.
 /// </summary>
 public sealed partial class MainForm : Form
 {
@@ -20,7 +20,12 @@ public sealed partial class MainForm : Form
     private readonly BridgeHost _bridge;
     private readonly KeyboardHook _hook;
     private readonly Label _status;
-    private int _index;
+
+    // Which screen is active (enum tracking) + per-screen state.
+    private LauncherScreen _screen = LauncherScreen.MapPicker;
+    private int _index;                                  // map cursor
+    private int _gumIndex;                                // gobblegum cursor
+    private readonly List<GobbleGum> _gumPicks = new();   // chosen loadout (<= 5)
     private bool _announced;
 
     #endregion
@@ -79,7 +84,8 @@ public sealed partial class MainForm : Form
                 ? "Mod is built and ready. "
                 : "Warning: the mod is not built. Run deploy first. ") +
             "Use Up and Down arrows to choose a map, Enter to launch, " +
-            "Escape to quit. Shift plus F9 toggles menu reading at any time.";
+            "G to choose GobbleGums, Escape to quit. " +
+            "Shift plus F9 toggles menu reading at any time.";
 
         _speech.Speak(intro, true);
         AnnounceCurrent();

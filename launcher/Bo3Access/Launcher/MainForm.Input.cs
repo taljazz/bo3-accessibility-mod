@@ -1,45 +1,67 @@
 namespace Bo3Access.Launcher;
 
-#region MainForm — input & navigation (partial)
+#region MainForm — input routing & map navigation (partial)
 
 public sealed partial class MainForm
 {
-    #region Key handling
+    #region Key router
 
+    /// <summary>Dispatch keys to the active screen (enum-driven).</summary>
     private void OnKeyDown(object? sender, KeyEventArgs e)
+    {
+        bool handled = _screen switch
+        {
+            LauncherScreen.MapPicker       => HandleMapKey(e),
+            LauncherScreen.GobbleGumPicker => HandleGobbleGumKey(e), // MainForm.GobbleGum.cs
+            _ => false,
+        };
+
+        if (handled)
+        {
+            e.Handled = true;
+            e.SuppressKeyPress = true;
+        }
+    }
+
+    #endregion
+
+    #region Map screen
+
+    private bool HandleMapKey(KeyEventArgs e)
     {
         switch (e.KeyCode)
         {
             case Keys.Down:
                 _index = (_index + 1) % Maps.All.Count;
                 AnnounceCurrent();
-                break;
+                return true;
 
             case Keys.Up:
                 _index = (_index - 1 + Maps.All.Count) % Maps.All.Count;
                 AnnounceCurrent();
-                break;
+                return true;
 
             case Keys.Enter:
                 LaunchSelected();
-                break;
+                return true;
+
+            case Keys.G:
+                EnterGobbleGumPicker(); // MainForm.GobbleGum.cs
+                return true;
 
             case Keys.Escape:
                 _speech.Speak("Quitting.", true);
                 Close();
-                break;
+                return true;
 
             default:
-                return; // let other keys through untouched
+                return false;
         }
-
-        e.Handled = true;
-        e.SuppressKeyPress = true;
     }
 
     #endregion
 
-    #region Navigation
+    #region Map navigation
 
     private void AnnounceCurrent()
     {

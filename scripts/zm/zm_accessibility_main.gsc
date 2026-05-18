@@ -10,6 +10,7 @@
 #using scripts\zm\zm_acc_beacons;
 #using scripts\zm\zm_acc_settings;
 #using scripts\zm\zm_acc_menus;
+#using scripts\zm\zm_acc_gobblegum;
 
 #insert scripts\shared\shared.gsh;
 
@@ -102,6 +103,7 @@ function __init__()
 
     // Initialize weapon display name lookup table
     zm_acc_menus::init_weapon_names();
+    zm_acc_gobblegum::init();
 
     level thread monitor_round_changes();
     level thread monitor_game_end();
@@ -151,6 +153,7 @@ function on_player_spawned()
         self thread zm_acc_beacons::interactable_beacon_think();
         self thread zm_acc_settings::settings_think();
         self thread zm_acc_menus::menu_prompt_think();
+        self thread zm_acc_gobblegum::gobblegum_think();
     }
 
     // Announce spawn via TTS
