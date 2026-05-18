@@ -49,6 +49,9 @@
 #define HEALTH_CRITICAL_THRESHOLD   25          // Health % for critical warning
 #define POINTS_ANNOUNCE_INTERVAL    45          // Seconds between periodic point announcements
 
+// Auto-restart settings
+#define AUTO_RESTART_ON_DEATH       1           // 1 = restart the match when the game ends (you died); 0 = off
+
 // TTS priority levels (lower number = higher priority)
 #define TTS_PRIORITY_CRITICAL   0
 #define TTS_PRIORITY_HIGH       1
@@ -85,6 +88,7 @@ function __init__()
     level.accessibility.health_warning = HEALTH_WARNING_THRESHOLD;
     level.accessibility.health_critical = HEALTH_CRITICAL_THRESHOLD;
     level.accessibility.points_interval = POINTS_ANNOUNCE_INTERVAL * 1000;
+    level.accessibility.auto_restart = AUTO_RESTART_ON_DEATH;
 
     // Combat mode flag (managed by proximity module based on threat level)
     level.accessibility.combat_mode = false;
@@ -283,9 +287,26 @@ function monitor_game_end()
 {
     level waittill("end_game");
     wait 1.0;
-    players = GetPlayers();
-    foreach(player in players)
-        queue_tts_message("Game over. You reached round " + level.round_number, "critical");
+
+    reached_round = level.round_number;
+    foreach(player in GetPlayers())
+        queue_tts_message("Game over. You reached round " + reached_round, "critical");
+
+    // Auto-restart the match on death. In solo zombies the only way to "die"
+    // is to bleed out, which fires "end_game" — so this is effectively
+    // "restart when you die". Map_Restart() is the BO3 GSC builtin for this
+    // (see docs_modtools/bo3_scriptapifunctions.htm); console/keybind restart
+    // do NOT work in this mod's devmap setup, so the GSC builtin is required.
+    if(IsDefined(level.accessibility) && level.accessibility.auto_restart)
+    {
+        // Let the "game over" announcement land, then warn before the reload.
+        wait 2.0;
+        queue_tts_message("Restarting match.", "critical");
+        wait 1.5; // give the external TTS bridge time to speak it first
+
+        // false = do NOT keep persistent player info: a clean round-1 restart.
+        Map_Restart(false);
+    }
 }
 
 // ============================================
